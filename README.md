@@ -4,7 +4,7 @@
 
 Crafting clean, precise, and modern digital experiences.
 
-Hi, I’m a 21-year-old creator with a background in mechanical engineering and automation.
+Hi, I’m a 22-year-old creator with a background in mechanical engineering and automation.
 I combine technical precision with creative problem-solving to build digital experiences that are efficient, minimal, and high-performance.
 
 My journey into coding began through multiple courses and certifications, which fueled my passion for development and clean design.
