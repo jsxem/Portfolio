@@ -1,0 +1,143 @@
+/* PAGE WRAPPER */
+.projects-page {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.projects-page h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.search-bar {
+  background: #1b1b1b;
+  border: 1px solid #2e2e2e;
+  padding: 12px 18px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.search-bar ion-icon {
+  font-size: 24px;
+  color: #a0a0a0;
+}
+
+.search-bar input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+
+
+.categories {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.category {
+  padding: 8px 18px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 25px;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
+
+.category:hover {
+  background: #262626;
+}
+
+.category.active {
+  background: #00bcd4;
+  color: black;
+  border-color: #00bcd4;
+}
+
+
+/* ----------------------------- */
+/* PROJECT DROPDOWNS */
+/* ----------------------------- */
+.project {
+  background: #1a1a1a;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.project-header {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.project-header ion-icon {
+  font-size: 26px;
+  transition: 0.3s;
+}
+
+.project.active .project-header ion-icon {
+  transform: rotate(180deg);
+}
+
+.project-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #191919;
+  border-top: 1px solid #2a2a2a;
+  transition: max-height 0.35s ease;
+  font-family: sans-serif;
+}
+
+.project.active .project-content {
+  max-height: 600px;
+}
+
+.project-description {
+  padding: 20px;
+  font-size: 17px;
+  color: #dcdcdc;
+}
+
+
+/* CODE BLOCK */
+.code-block {
+  background: #121212;
+  border: 1px solid #333;
+  padding: 15px;
+  margin: 0 20px 20px 20px;
+  border-radius: 10px;
+  font-family: monospace;
+  overflow-x: auto;
+}
+
+.code-block pre {
+  color: whitesmoke;
+  white-space: pre-wrap;
+}
